@@ -125,7 +125,7 @@ p::selection
 	
 }
 h1{font-size: 48px;}
-h2{font-size: 36px;}
+h2{font-size: 28px;}
 h3{font-size: 24px;}
 h4{font-size: 18px;}
 h5{font-size: 14px;}
@@ -434,8 +434,8 @@ section
 }
 .main_nav li a
 {
-	font-size: 18px;
-	font-weight: 500;
+	font-size: 16px;
+	font-weight:normal;
 	color: #384158;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -955,8 +955,8 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 93px;
-	padding-bottom: 103px;
+	padding-top:43px;
+	padding-bottom:43px;
 }
 .features_row
 {
@@ -997,12 +997,13 @@ section
 .courses
 {
 	width: 100%;
-	padding-top: 93px;
-	padding-bottom: 100px;
+	padding-top:43px;
+	padding-bottom:0px;
 }
 .courses_row
 {
 	margin-top: 45px;
+	padding-bottom:50px;
 }
 .course
 {
@@ -1333,9 +1334,9 @@ section
 .events
 {
 	width: 100%;
-	padding-top: 93px;
+	padding-top:43px;
 	padding-bottom: 70px;
-	background: #FFFFFF;
+	background: rgba(230, 228, 228, 0.59);
 }
 .events_row
 {
@@ -1411,8 +1412,8 @@ section
 .event_title a
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 20px;
-	font-weight: 700;
+	font-size:16px;
+	font-weight:normal;
 	line-height: 1.4;
 	color: #384158;
 	-webkit-transition: all 200ms ease;
@@ -1584,8 +1585,7 @@ section
 .news
 {
 	width: 100%;
-	padding-top: 93px;
-	padding-bottom: 100px;
+	padding-top:43px;
 	background: #FFFFFF;
 }
 .news_row
@@ -1705,8 +1705,8 @@ section
 .news_post_small_title a
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 18px;
-	font-weight: 700;
+	font-size: 16px;
+	font-weight:normal;
 	line-height: 1.55;
 	color: #384158;
 	-webkit-transition: all 200ms ease;
@@ -2034,3 +2034,21 @@ section
 	color: #faa71d;
 }
 
+
+/* custom css */
+
+.course_body .course_text a {
+    color: #faa71d;
+    border: 0;
+}
+.course_body .course_text a:hover {
+    background: none;
+}
+.course h3.course_title {
+    font-weight: normal;
+}
+.news .container {
+    padding-bottom:43px;
+}
+
+/* custom css */
