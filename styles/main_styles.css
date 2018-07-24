@@ -272,7 +272,7 @@ section
 .top_bar
 {
 	width: 100%;
-	background: #14bdee;
+	background: #faa71d;
 }
 .header.scrolled .top_bar
 {
@@ -397,7 +397,7 @@ section
 }
 .logo_text span
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .header.scrolled .logo
 {
@@ -446,7 +446,7 @@ section
 .main_nav li a:hover,
 .main_nav li.active a
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .main_nav li.active::after
 {
@@ -456,7 +456,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #14bdee;
+	background: #faa71d;
 	content: '';
 }
 .search_button
@@ -483,7 +483,7 @@ section
 .search_button:hover i,
 .shopping_cart:hover i
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .header_search_form
 {
@@ -497,7 +497,7 @@ section
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
-	background: #14bdee;
+	background: #faa71d;
 	z-index: -1;
 	opacity: 0;
 	-webkit-transition: all 400ms ease;
@@ -561,7 +561,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 
 /*********************************
@@ -659,7 +659,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .menu .search
 {
@@ -762,10 +762,21 @@ section
 6. Home
 *********************************/
 
+@media only screen and (min-width: 768px) {
+	.home_slider_content .col.text-center {
+		background: rgba(0,0,0,0.5);
+		max-width: 450px;
+		padding: 30px 0;
+		margin:0 auto;
+		/*border:6px double #fff;*/
+	}
+}
+
+
 .home
 {
 	width: 100%;
-	height: 850px;
+	height: 600px;
 }
 .home_slider_container
 {
@@ -791,7 +802,7 @@ section
 .home_slider_content
 {
 	position: absolute;
-	top: 41%;
+	top: 50%;
 	left: 0;
 	width: 100%;
 	height: auto;
@@ -799,15 +810,15 @@ section
 .home_slider_title
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 60px;
+	font-size: 22px;
 	font-weight: 700;
 	line-height: 1.2;
-	color: #384158;
+	color: #fff;
 }
 .home_slider_subtitle
 {
-	font-size: 24px;
-	color: #76777a;
+	font-size: 18px;
+	color: #fff;
 	margin-top: 9px;
 }
 .home_slider_form_container
@@ -890,7 +901,7 @@ section
 {
 	width: 120px;
 	height: 46px;
-	background: #14bdee;
+	background: #faa71d;
 	border: none;
 	outline: none;
 	border-radius: 3px;
@@ -933,7 +944,7 @@ section
 }
 .home_slider_nav:hover
 {
-	background: #14bdee;
+	background: #faa71d;
 }
 
 /*********************************
@@ -1031,7 +1042,7 @@ section
 }
 .course_title a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .course_teacher
 {
@@ -1076,7 +1087,7 @@ section
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
 	font-weight: 700;
-	color: #14bdee;
+	color: #faa71d;
 }
 .course_price span
 {
@@ -1092,7 +1103,7 @@ section
 	width: 210px;
 	height: 46px;
 	border-radius: 3px;
-	background: #14bdee;
+	background: #faa71d;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 41px;
@@ -1182,7 +1193,7 @@ section
 	font-size: 42px;
 	font-weight: 700;
 	line-height: 0.75;
-	color: #14bdee;
+	color: #faa71d;
 }
 .milestone_text
 {
@@ -1300,7 +1311,7 @@ section
 	text-transform: uppercase;
 	border: none;
 	outline: none;
-	background: #14bdee;
+	background: #faa71d;
 	cursor: pointer;
 	margin-top: 30px;
 	box-shadow: 0px 5px 40px rgba(29,34,47,0.15);
@@ -1371,7 +1382,7 @@ section
 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 24px;
-	color: #14bdee;
+	color: #faa71d;
 	font-weight: 700;
 	line-height: 0.75;
 }
@@ -1379,14 +1390,14 @@ section
 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
-	color: #14bdee;
+	color: #faa71d;
 	font-weight: 400;
 	line-height: 0.75;
 	margin-top: 9px;
 }
 .event:hover .event_date > div
 {
-	background: #14bdee;
+	background: #faa71d;
 }
 .event:hover .event_day,
 .event:hover .event_month
@@ -1412,7 +1423,7 @@ section
 }
 .event_title a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .event_info_container
 {
@@ -1515,7 +1526,7 @@ section
 }
 .team_title a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .team_subtitle
 {
@@ -1548,7 +1559,7 @@ section
 }
 .social_list ul li:hover a i
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .team_col .team_item
 {
@@ -1618,7 +1629,7 @@ section
 }
 .news_post_large_title a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .news_post_meta
 {
@@ -1651,7 +1662,7 @@ section
 }
 .news_post_meta ul li a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .news_post_text
 {
@@ -1676,7 +1687,7 @@ section
 }
 .news_post_link a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .news_posts_small
 {
@@ -1706,7 +1717,7 @@ section
 }
 .news_post_small_title a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 
 /*********************************
@@ -1809,7 +1820,7 @@ section
 	cursor: pointer;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #14bdee;
+	color: #faa71d;
 	font-weight: 500;
 	letter-spacing: 0.1em;
 }
@@ -1856,7 +1867,7 @@ section
 }
 .footer_logo_text span
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .footer_title
 {
@@ -1912,7 +1923,7 @@ section
 }
 .footer_social ul li:hover
 {
-	background: #14bdee;
+	background: #faa71d;
 }
 .footer_contact
 {
@@ -1962,7 +1973,7 @@ section
 }
 .footer_links_container ul li a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .footer_mobile
 {
@@ -2002,7 +2013,7 @@ section
 }
 .cr_text a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
 .cr_list li:not(:last-child)
 {
@@ -2020,5 +2031,6 @@ section
 }
 .cr_list li a:hover
 {
-	color: #14bdee;
+	color: #faa71d;
 }
+

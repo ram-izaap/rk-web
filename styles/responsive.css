@@ -285,6 +285,13 @@
 
 @media only screen and (max-width: 767px)
 {
+	.features {
+		padding-top: 40px;
+	}
+	.home_slider_content .col.text-center {
+		position: relative;
+		top:70px;
+	}
 	.top_bar
 	{
 		display: none;
@@ -293,9 +300,17 @@
 	{
 		display: none;
 	}
-	.home_slider_title
+	.home_slider_title,
+	.home_slider_subtitle
 	{
-		font-size: 48px;
+		font-size: 22px;
+		color:#000;
+	}
+	.home_slider_background {
+		background-size: contain;
+	}
+	.home {
+		height:300px;
 	}
 	.home_search_form div
 	{
